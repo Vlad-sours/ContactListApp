@@ -19,5 +19,5 @@ class ContactDetailsViewController: UIViewController {
         title = contact.fullName
         phoneLabel.text = "Phone: \(contact.phoneNumber)"
         emailLabel.text = "Email: \(contact.email)"
-    }    
+    }
 }

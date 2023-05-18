@@ -16,6 +16,7 @@
 		F5F0F1C22A162CD90060B9EB /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1C12A162CD90060B9EB /* ContactListViewController.swift */; };
 		F5F0F1C52A163A210060B9EB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1C42A163A210060B9EB /* Person.swift */; };
 		F5F0F1C82A1650470060B9EB /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1C72A1650470060B9EB /* ContactDetailsViewController.swift */; };
+		F5FD702D2A1698E800A4E090 /* FullListContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD702C2A1698E800A4E090 /* FullListContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F5F0F1C12A162CD90060B9EB /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		F5F0F1C42A163A210060B9EB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F5F0F1C72A1650470060B9EB /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		F5FD702C2A1698E800A4E090 /* FullListContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullListContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				F5F0F1C12A162CD90060B9EB /* ContactListViewController.swift */,
 				F5F0F1C72A1650470060B9EB /* ContactDetailsViewController.swift */,
+				F5FD702C2A1698E800A4E090 /* FullListContactViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				F5F0F1A82A162AB70060B9EB /* AppDelegate.swift in Sources */,
 				F5F0F1C82A1650470060B9EB /* ContactDetailsViewController.swift in Sources */,
 				F5F0F1C22A162CD90060B9EB /* ContactListViewController.swift in Sources */,
+				F5FD702D2A1698E800A4E090 /* FullListContactViewController.swift in Sources */,
 				F5F0F1BC2A162BF90060B9EB /* DataStore.swift in Sources */,
 				F5F0F1AA2A162AB70060B9EB /* SceneDelegate.swift in Sources */,
 			);
