@@ -16,6 +16,7 @@ struct Person {
     var fullName: String {
         "\(name) \(surname)"
     }
+    
     static func getContactList() -> [Person] {
         
         var persons: [Person] = []
@@ -25,14 +26,14 @@ struct Person {
         let email = DataStore.get.emails.shuffled()
         let phone = DataStore.get.phoneNumbers.shuffled()
         
-        let iterationCount = min(
+        let iteration = min(
             name.count,
             surname.count,
             email.count,
             phone.count
         )
         
-        for index in 0..<iterationCount {
+        for index in 0..<iteration {
             let person = Person(
                 name: name[index],
                 surname: surname[index],

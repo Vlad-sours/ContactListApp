@@ -80,7 +80,7 @@ class DataStore{
         "+21(616) 000-1980",
         "+22(116) 000-1980",
     ]
-
+    
     let emails = [
         "sasha@list.ru",
         "tomochka72@inbox.ru",
