@@ -5,8 +5,9 @@
 //  Created by Vlad on 18.5.23..
 //
 
-import Foundation
+
 class DataStore{
+    static let get = DataStore()
     let names = [
         "Abraham",
         "Adam",
@@ -30,7 +31,7 @@ class DataStore{
         "William"
     ]
     
-    let lastNames = [
+    let surNames = [
         "Calhoun",
         "Campbell",
         "Campion",
@@ -79,7 +80,7 @@ class DataStore{
         "+7(616) 000-1980",
         "+7(116) 000-1980",
     ]
-    
+
     let emails = [
         "sasha@list.ru",
         "tomochka72@inbox.ru",
@@ -104,4 +105,5 @@ class DataStore{
         "valova-84@inbox.ru",
         "rimva_78@bk.ru"
     ]
+    private init() {}
 }
