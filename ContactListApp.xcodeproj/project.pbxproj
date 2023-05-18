@@ -15,6 +15,7 @@
 		F5F0F1BC2A162BF90060B9EB /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1BB2A162BF90060B9EB /* DataStore.swift */; };
 		F5F0F1C22A162CD90060B9EB /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1C12A162CD90060B9EB /* ContactListViewController.swift */; };
 		F5F0F1C52A163A210060B9EB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1C42A163A210060B9EB /* Person.swift */; };
+		F5F0F1C82A1650470060B9EB /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0F1C72A1650470060B9EB /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F5F0F1BB2A162BF90060B9EB /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		F5F0F1C12A162CD90060B9EB /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		F5F0F1C42A163A210060B9EB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F5F0F1C72A1650470060B9EB /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				F5F0F1C12A162CD90060B9EB /* ContactListViewController.swift */,
+				F5F0F1C72A1650470060B9EB /* ContactDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				F5F0F1C52A163A210060B9EB /* Person.swift in Sources */,
 				F5F0F1A82A162AB70060B9EB /* AppDelegate.swift in Sources */,
+				F5F0F1C82A1650470060B9EB /* ContactDetailsViewController.swift in Sources */,
 				F5F0F1C22A162CD90060B9EB /* ContactListViewController.swift in Sources */,
 				F5F0F1BC2A162BF90060B9EB /* DataStore.swift in Sources */,
 				F5F0F1AA2A162AB70060B9EB /* SceneDelegate.swift in Sources */,

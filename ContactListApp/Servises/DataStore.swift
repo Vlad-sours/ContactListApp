@@ -105,5 +105,4 @@ class DataStore{
         "valova-84@inbox.ru",
         "rimva_78@bk.ru"
     ]
-    private init() {}
 }
